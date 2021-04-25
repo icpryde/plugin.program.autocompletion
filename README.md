@@ -1,4 +1,4 @@
-# plugin.program.autocompletion
+# plugin.program.autocompletion for Leia 
 Plugin to provide autocompletion for the virtual keyboard (needs skin support)
 
 
