@@ -29,7 +29,7 @@ def start_info_actions(infos, params):
 
         elif info == 'selectautocomplete':
             xbmc.executebuiltin('Dialog.Close(busydialog)')
-            xbmc.sleep(500)
+            xbmc.sleep(600)
             get_kodi_json(method="Input.SendText", params='{"text":"%s", "done":false}' % params.get("id"))
             return
 
